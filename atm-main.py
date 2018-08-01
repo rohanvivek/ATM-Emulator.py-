@@ -59,6 +59,7 @@ elif q=='no':
         elif s == 2000:
             d = a / 2000
             print("no. of 2000 rupees notes will be", d)
+        print("Balance",balance-a)
     chances = 3
     while chances >= 0:
         pin = (input('Please Enter You 4 Digit Pin: '))
